@@ -115,23 +115,8 @@ Jenkins automates the entire workflow with a pipeline defined in a **Jenkinsfile
 ---
 
 ## 🖼️ 6. Architecture Flow
-```
-Developer → GitHub Repo
-       ↓
-   Jenkins Pipeline
-       ↓
-   Terraform (Infra: SG, LT, ASG, ELB, S3)
-       ↓
-   AWS Cloud Resources
-       ↓
-   Ansible (Config + Deploy Site)
-       ↓
-   EC2 Instances (Apache + Site)
-       ↓
-   Elastic Load Balancer (DNS)
-       ↓
-   End User Browser
-```
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/8dce83a4-3821-458b-ba79-526ef13836ff" />
+
 
 ---
 
