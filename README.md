@@ -70,8 +70,8 @@ Once infrastructure is up, Ansible configures the EC2 instances:
   - Groups instances by tags for flexible targeting.
 
 - **deployment.yml playbook**  
-  - Installs Apache web server.  
-  - Starts and enables Apache service.  
+  - Installs httpd web server.  
+  - Starts httpd service.  
   - Installs Git.  
   - Clones static site code from GitHub into `/var/www/html`.  
   - Ensures every EC2 instance in the ASG is identically configured and ready to serve traffic.
